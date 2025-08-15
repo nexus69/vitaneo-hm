@@ -1,0 +1,52 @@
+[
+  { "id": "rythme-souhaite", "title": "Quel rythme d’activités vous convient le mieux ?", "options": [
+    { "value": "calme", "label": "Calme et progressif", "points": 0 },
+    { "value": "modere", "label": "Modéré (1–2 activités/jour)", "points": 1 },
+    { "value": "soutenu", "label": "Soutenu (2–3 activités/jour)", "points": 2 }
+  ]},
+  { "id": "autonomie", "title": "Êtes-vous autonome pour les activités du quotidien (mobilité, repas, hygiène) ?", "help": "Vitaneo n’est pas médicalisé ; nous ne réalisons aucun acte de soins.", "options": [
+    { "value": "oui", "label": "Oui, autonome", "points": 2 },
+    { "value": "aide-legere", "label": "Autonome avec aide légère", "points": 1 },
+    { "value": "non", "label": "Non autonome", "points": 0, "veto": true }
+  ]},
+  { "id": "mobilite", "title": "Votre mobilité à l’extérieur ?", "options": [
+    { "value": "courtes-marches", "label": "Courtes marches (≤ 15 min)", "points": 0 },
+    { "value": "marches-moderees", "label": "Marches modérées (30–45 min)", "points": 1 },
+    { "value": "randos-legeres", "label": "Randonnées légères (≥ 1 h)", "points": 2 }
+  ]},
+  { "id": "eau", "title": "À l’aise avec les activités mer/piscine ?", "options": [
+    { "value": "non", "label": "Plutôt non", "points": 0 },
+    { "value": "oui-doucement", "label": "Oui, en douceur", "points": 1 },
+    { "value": "oui-actif", "label": "Oui, de façon active", "points": 2 }
+  ]},
+  { "id": "social", "title": "Vie sociale et sorties (soir) ?", "options": [
+    { "value": "occasionnelles", "label": "Occasionnelles", "points": 0 },
+    { "value": "regulieres", "label": "Régulières", "points": 1 },
+    { "value": "frequentes", "label": "Fréquentes", "points": 2 }
+  ]},
+  { "id": "culture", "title": "Intérêt pour culture & artisanat ?", "options": [
+    { "value": "faible", "label": "Faible", "points": 0 },
+    { "value": "moyen", "label": "Moyen", "points": 1 },
+    { "value": "fort", "label": "Fort", "points": 2 }
+  ]},
+  { "id": "bien-etre", "title": "Intérêt pour bien-être & cuisine ?", "options": [
+    { "value": "faible", "label": "Faible", "points": 0 },
+    { "value": "moyen", "label": "Moyen", "points": 1 },
+    { "value": "fort", "label": "Fort", "points": 2 }
+  ]},
+  { "id": "effort", "title": "Niveau d’effort physique souhaité ?", "options": [
+    { "value": "leger", "label": "Léger", "points": 0 },
+    { "value": "modere", "label": "Modéré", "points": 1 },
+    { "value": "tonique", "label": "Tonique", "points": 2 }
+  ]},
+  { "id": "encadrement", "title": "Souhaitez-vous un encadrement par un coach référent ?", "options": [
+    { "value": "non-necessaire", "label": "Pas nécessaire", "points": 0 },
+    { "value": "occasionnel", "label": "Occasionnel", "points": 1 },
+    { "value": "regulier", "label": "Régulier", "points": 2 }
+  ]},
+  { "id": "duree", "title": "Durée envisagée pour votre séjour ?", "options": [
+    { "value": "7-10j", "label": "7–10 jours", "points": 0 },
+    { "value": "3-8sem", "label": "3–8 semaines", "points": 1 },
+    { "value": "1-3mois", "label": "1–3 mois", "points": 2 }
+  ]}
+]

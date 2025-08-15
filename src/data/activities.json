@@ -1,0 +1,17 @@
+[
+  { "id":"respiration-guidee","title":"Atelier respiration guidée","category":"Bien-être & cuisine","intensity":"Zen","duration_min":60,"location":"on-site","slotHints":["AM","PM"],"capacity":12},
+  { "id":"yoga-doux","title":"Yoga doux","category":"Mouvement","intensity":"Zen","duration_min":60,"location":"on-site","slotHints":["AM"],"capacity":14},
+  { "id":"aquagym","title":"Aquagym","category":"Mer & plein air","intensity":"Tonus","duration_min":60,"location":"on-site","slotHints":["AM","PM"],"capacity":16},
+  { "id":"marche-plage","title":"Marche au bord de mer","category":"Mer & plein air","intensity":"Zen","duration_min":90,"location":"on-site","slotHints":["AM"],"capacity":20},
+  { "id":"rando-cap-bon","title":"Randonnée légère au Cap Bon","category":"Mer & plein air","intensity":"Élan","duration_min":150,"location":"off-site","slotHints":["PM"],"capacity":10},
+  { "id":"sortie-medina","title":"Sortie à la médina","category":"Culture & artisanat","intensity":"Tonus","duration_min":120,"location":"off-site","slotHints":["PM","EV"],"capacity":12},
+  { "id":"atelier-zellige","title":"Atelier zellige (découverte)","category":"Culture & artisanat","intensity":"Zen","duration_min":90,"location":"on-site","slotHints":["PM"],"capacity":10},
+  { "id":"cuisine-tunisienne","title":"Cuisine tunisienne — saveurs du jour","category":"Bien-être & cuisine","intensity":"Tonus","duration_min":90,"location":"on-site","slotHints":["PM"],"surcharge_eur":10,"capacity":8},
+  { "id":"cafe-debat","title":"Café-débat (actualité & voyages)","category":"Social & sorties","intensity":"Zen","duration_min":60,"location":"on-site","slotHints":["EV"],"capacity":16},
+  { "id":"soiree-musicale","title":"Soirée musicale & danse légère","category":"Social & sorties","intensity":"Tonus","duration_min":120,"location":"on-site","slotHints":["EV"],"capacity":25},
+  { "id":"musee-carthage","title":"Musée & site de Carthage","category":"Culture & artisanat","intensity":"Tonus","duration_min":150,"location":"off-site","slotHints":["PM"],"capacity":12},
+  { "id":"voile-initiation","title":"Initiation à la voile (catamaran)","category":"Mer & plein air","intensity":"Élan","duration_min":120,"location":"off-site","slotHints":["PM"],"surcharge_eur":25,"capacity":6},
+  { "id":"golf-practice","title":"Practice de golf (initiation)","category":"Mouvement","intensity":"Tonus","duration_min":90,"location":"off-site","slotHints":["PM"],"surcharge_eur":40,"capacity":8},
+  { "id":"petanque-jardin","title":"Pétanque au jardin","category":"Mouvement","intensity":"Zen","duration_min":60,"location":"on-site","slotHints":["PM","EV"],"capacity":14},
+  { "id":"chorale","title":"Chorale — chansons d’hier & d’aujourd’hui","category":"Social & sorties","intensity":"Zen","duration_min":90,"location":"on-site","slotHints":["EV"],"capacity":20}
+]

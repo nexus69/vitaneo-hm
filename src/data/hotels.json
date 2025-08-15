@@ -1,0 +1,55 @@
+[
+  {
+    "id": "azur-palace",
+    "name": "Azur Palace",
+    "stars": 5,
+    "city": "Gammarth",
+    "transferMin": 25,
+    "photo": {
+      "src": "/img/hotels/azur-palace.jpg",
+      "alt": "Terrasse azur\u00e9e avec vue mer"
+    },
+    "services": [
+      "Chambres spacieuses",
+      "Piscines int\u00e9rieure & ext\u00e9rieure",
+      "Jardins & patios",
+      "Restaurants vari\u00e9s"
+    ],
+    "notes": "Acc\u00e8s plage, espaces calmes pour la lecture."
+  },
+  {
+    "id": "jasmine-bay",
+    "name": "Jasmine Bay",
+    "stars": 4,
+    "city": "Hammamet",
+    "transferMin": 50,
+    "photo": {
+      "src": "/img/hotels/jasmine-bay.jpg",
+      "alt": "Jardin aux zelliges, lumi\u00e8re dor\u00e9e"
+    },
+    "services": [
+      "Chambres confortables",
+      "Grande piscine",
+      "Salon lumineux",
+      "Navette plage"
+    ],
+    "notes": "Ambiance conviviale, id\u00e9al pour D\u00e9couverte & Vitalit\u00e9."
+  },
+  {
+    "id": "medina-garden",
+    "name": "M\u00e9dina Garden",
+    "stars": 4,
+    "city": "Sousse",
+    "transferMin": 20,
+    "photo": {
+      "src": "/img/hotels/medina-garden.jpg",
+      "alt": "Patio ombrag\u00e9 entour\u00e9 de verdure"
+    },
+    "services": [
+      "Patios & jardins",
+      "Espaces de travail calmes",
+      "Restaurant m\u00e9diterran\u00e9en"
+    ],
+    "notes": "Bon spot T\u00e9l\u00e9travail 55+."
+  }
+]

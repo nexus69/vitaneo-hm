@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fs-base: 16px;
+  --background: 32 100% 97%;
+  --foreground: 216 22% 24%;
+  --card: 0 0% 100%;
+  --card-foreground: 216 22% 24%;
+  --muted: 39 23% 88%;
+  --muted-foreground: 216 22% 24%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 216 22% 24%;
+  --primary: 194 69% 38%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 204 81% 20%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 20 57% 51%;
+  --accent-foreground: 0 0% 100%;
+  --border: 39 23% 88%;
+  --input: 39 23% 88%;
+  --ring: 194 69% 38%;
+  --radius: 20px;
+  --shadow-elev1: 0 2px 6px rgba(10,61,94,.06);
+  --shadow-elev2: 0 8px 24px rgba(10,61,94,.08);
+  --shadow-elev3: 0 20px 48px rgba(10,61,94,.10);
+}
+.hc { --background: 0 0% 100%; --foreground: 0 0% 10%; --border: 0 0% 15%; --ring: 204 81% 20%; }
+
+@layer base {
+  html { font-size: var(--fs-base); }
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground antialiased; }
+  h1 { @apply text-h1 font-heading text-mer; }
+  h2 { @apply text-h2 font-heading text-mer; }
+  h3 { @apply text-h3 font-heading text-mer; }
+  p  { @apply text-p1; }
+  a:focus-visible, button:focus-visible, input:focus-visible, [role="button"]:focus-visible {
+    outline: 2px solid hsl(var(--ring)); outline-offset: 2px;
+  }
+}
+.shadow-elev1 { box-shadow: var(--shadow-elev1); }
+.shadow-elev2 { box-shadow: var(--shadow-elev2); }
+.shadow-elev3 { box-shadow: var(--shadow-elev3); }

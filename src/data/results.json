@@ -1,0 +1,29 @@
+[
+  {
+    "month": "2025-06",
+    "ack15": 96,
+    "solve2h": 91,
+    "rdv24h": 94,
+    "nps": 62,
+    "cases": 143,
+    "note": "P\u00e9riode moyenne"
+  },
+  {
+    "month": "2025-07",
+    "ack15": 97,
+    "solve2h": 93,
+    "rdv24h": 95,
+    "nps": 64,
+    "cases": 158,
+    "note": "Pic \u00e9t\u00e9"
+  },
+  {
+    "month": "2025-08",
+    "ack15": 98,
+    "solve2h": 92,
+    "rdv24h": 96,
+    "nps": 66,
+    "cases": 172,
+    "note": "Haute saison"
+  }
+]

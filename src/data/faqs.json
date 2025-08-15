@@ -1,0 +1,30 @@
+[
+  {
+    "q": "\u00cates-vous un \u00e9tablissement m\u00e9dical ?",
+    "a": "Non. Vitan\u00e9o est un service non m\u00e9dicalis\u00e9 : aucun acte de soins. En cas de besoin, nous aidons \u00e0 obtenir un RDV sant\u00e9 en moins de 24 h via des partenaires. Urgence : 198/112."
+  },
+  {
+    "q": "Quelle diff\u00e9rence entre R\u00e9sidence Services Seniors (RSS) et EHPAD ?",
+    "a": "Les RSS sont des logements avec services, destin\u00e9s \u00e0 des personnes autonomes. Les EHPAD sont des \u00e9tablissements m\u00e9dicalis\u00e9s. Vitan\u00e9o s\u2019adresse \u00e0 des seniors autonomes en s\u00e9jours h\u00f4teliers 4\u20135\u2605."
+  },
+  {
+    "q": "Quelles sont vos disponibilit\u00e9s et vos engagements SLA ?",
+    "a": "Service 8h\u201320h, 7j/7 (heure de Paris). Accus\u00e9 de r\u00e9ception < 15 min ; solution < 2 h ; RDV sant\u00e9 < 24 h (via partenaires)."
+  },
+  {
+    "q": "La langue du service et du site ?",
+    "a": "Enti\u00e8rement en fran\u00e7ais (FR-only). L\u2019assistance courante est assur\u00e9e en fran\u00e7ais ; autres langues selon disponibilit\u00e9."
+  },
+  {
+    "q": "Comment obtenir un devis et payer ?",
+    "a": "Remplissez le formulaire (dates, h\u00f4tel, rythme). Nous r\u00e9pondons sous 24 h ouvr\u00e9es avec un chiffrage d\u00e9taill\u00e9, puis paiement s\u00e9curis\u00e9 selon le devis."
+  },
+  {
+    "q": "Conditions d\u2019annulation et assurances ?",
+    "a": "Les conditions pr\u00e9cises figurent sur le devis. Nous recommandons de v\u00e9rifier vos garanties d\u2019assurance voyage et sant\u00e9 avant r\u00e9servation."
+  },
+  {
+    "q": "S\u00e9curit\u00e9 sur place ?",
+    "a": "S\u00e9curit\u00e9 douce et pr\u00e9vention. Les h\u00f4tels partenaires disposent d\u2019une r\u00e9ception 24/7. Pour les sorties, accompagnement et brief s\u00e9curit\u00e9 selon l\u2019activit\u00e9."
+  }
+]

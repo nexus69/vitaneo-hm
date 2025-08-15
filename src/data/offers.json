@@ -1,0 +1,97 @@
+[
+  {
+    "id": "decouverte",
+    "title": "D\u00e9couverte",
+    "duration": "7\u201310 jours",
+    "pitch": "Premiers pas au soleil, rythme doux.",
+    "includes": [
+      "H\u00f4tel 4\u20135\u2605 (ch. double)",
+      "Petit-d\u00e9jeuner",
+      "1 activit\u00e9/jour (Zen)"
+    ],
+    "options": [
+      "Pass Tonus (+120 \u20ac/sem)",
+      "Pass \u00c9lan (+240 \u20ac/sem)"
+    ],
+    "discounts": [
+      "\u2014"
+    ],
+    "disclaimer": "Service non m\u00e9dicalis\u00e9. Options selon disponibilit\u00e9s."
+  },
+  {
+    "id": "vitalite",
+    "title": "Vitalit\u00e9",
+    "duration": "3\u20138 semaines",
+    "pitch": "Routine bien-\u00eatre personnalis\u00e9e.",
+    "includes": [
+      "H\u00f4tel 4\u20135\u2605",
+      "2 activit\u00e9s/jour (Tonus)",
+      "Coach r\u00e9f\u00e9rent (occasionnel)"
+    ],
+    "options": [
+      "Pass \u00c9lan (+240 \u20ac/sem)",
+      "Options premium (golf, voile, cuisine)"
+    ],
+    "discounts": [
+      "Remise de dur\u00e9e selon devis"
+    ],
+    "disclaimer": "Programme adaptable selon votre rythme."
+  },
+  {
+    "id": "hivernage",
+    "title": "Hivernage",
+    "duration": "1\u20133 mois",
+    "pitch": "L\u2019hiver en bord de mer, confort & s\u00e9r\u00e9nit\u00e9.",
+    "includes": [
+      "H\u00f4tel 4\u20135\u2605",
+      "Acc\u00e8s piscines & jardins",
+      "Activit\u00e9s \u00e0 la carte"
+    ],
+    "options": [
+      "Remises longues dur\u00e9es",
+      "Espace de travail calme"
+    ],
+    "discounts": [
+      "Remises progressives (devis)"
+    ],
+    "disclaimer": "Tarifs variables selon p\u00e9riode (coeff saison)."
+  },
+  {
+    "id": "duo-amis",
+    "title": "Duo & Amis",
+    "duration": "Selon souhait",
+    "pitch": "Partager l\u2019exp\u00e9rience \u00e0 deux ou entre amis.",
+    "includes": [
+      "H\u00e9bergement double",
+      "Activit\u00e9s communes",
+      "Assistance l\u00e9g\u00e8re"
+    ],
+    "options": [
+      "Chambres communicantes",
+      "Sorties priv\u00e9es"
+    ],
+    "discounts": [
+      "Remise duo selon p\u00e9riode"
+    ],
+    "disclaimer": "Sous r\u00e9serve de disponibilit\u00e9s."
+  },
+  {
+    "id": "teletravail-55",
+    "title": "T\u00e9l\u00e9travail 55+",
+    "duration": "2\u20136 semaines",
+    "pitch": "Allier travail au calme & vitalit\u00e9 douce.",
+    "includes": [
+      "H\u00f4tel 4\u20135\u2605",
+      "Espace de travail",
+      "Activit\u00e9s l\u00e9g\u00e8res (Zen)"
+    ],
+    "options": [
+      "Pass Tonus",
+      "Transferts a\u00e9roport (+70 \u20ac/pers)"
+    ],
+    "discounts": [
+      "Selon dur\u00e9e & saison"
+    ],
+    "disclaimer": "Wifi haut d\u00e9bit dans les h\u00f4tels partenaires."
+  }
+]

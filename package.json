@@ -1,0 +1,38 @@
+{
+  "name": "vitaneo",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "check:lh": "lighthouse http://localhost:3000 --only-categories=performance,accessibility,best-practices --quiet --chrome-flags='--headless' --output html --output-path ./lighthouse-report.html",
+    "check:lh:mobile": "lighthouse http://localhost:3000 --preset=mobile --only-categories=performance,accessibility,best-practices --quiet --chrome-flags='--headless' --output html --output-path ./lighthouse-mobile.html",
+    "check:a11y": "pa11y http://localhost:3000 --threshold 0 --reporter cli",
+    "check:a11y:routes": "sh -c 'pa11y http://localhost:3000 && pa11y http://localhost:3000/tarifs-reserver && pa11y http://localhost:3000/activites/configurateur && pa11y http://localhost:3000/experience/personnel-aidant && pa11y http://localhost:3000/faq-contact && pa11y http://localhost:3000/nos-resultats'"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.460.0",
+    "next": "14.2.5",
+    "next-themes": "^0.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "^2.0.0",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.0.0",
+    "lighthouse": "^12.0.0",
+    "pa11y": "^6.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.4.0",
+    "tailwindcss-animate": "^1.0.0",
+    "typescript": "^5.0.0"
+  }
+}

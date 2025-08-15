@@ -1,0 +1,25 @@
+{
+  "base_week": {
+    "hotel4": 790,
+    "hotel5": 950
+  },
+  "season_coeff": {
+    "basse": 1.0,
+    "moyenne": 1.1,
+    "haute": 1.2
+  },
+  "supplements": {
+    "single": {
+      "hotel4": 200,
+      "hotel5": 260
+    },
+    "transfers_per_person": 70,
+    "pass_tonus": 120,
+    "pass_elan": 240,
+    "options": {
+      "golf": 40,
+      "voile": 25,
+      "cuisine": 10
+    }
+  }
+}
