@@ -1,6 +1,7 @@
 // src/app/layout.tsx
 import type { Metadata } from "next";
-import { Inter, Manrope, Roboto_Mono } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
+import { Geist_Mono } from "geist/font"; // ✅ patch: ajoute Geist Mono
 import "./globals.css";
 
 import SiteHeader from "@/components/site-header";
@@ -21,9 +22,10 @@ const manrope = Manrope({
   display: "swap",
 });
 
-const mono = Roboto_Mono({
+// ✅ patch: déclare la variable utilisée quelque part dans le projet
+const geistMono = Geist_Mono({
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-geist-mono",
   display: "swap",
 });
 
@@ -47,7 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${manrope.variable} ${mono.variable} bg-background text-foreground antialiased`}
+        className={`${inter.variable} ${manrope.variable} ${geistMono.variable} bg-background text-foreground antialiased`}
       >
         {/* Lien d’évitement */}
         <a
@@ -57,7 +59,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Aller au contenu
         </a>
 
-        {/* Contrôles d’accessibilité */}
         <div className="container flex items-center justify-end py-2">
           <AccessibilityControls />
         </div>
