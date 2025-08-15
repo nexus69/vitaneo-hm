@@ -1,36 +1,34 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import type { Activity, Schedule } from "@/types";
-import { weekToCsv } from "@/lib/configurator";
-
-type Props = {
-  week: Schedule;
-  activities: Activity[];
-  filename?: string;
-};
+interface CsvDownloadButtonProps {
+  data?: any[];
+  fileName?: string;
+}
 
 export default function CsvDownloadButton({
-  week,
-  activities,
-  filename = "vitaneo-semaine.csv",
-}: Props) {
-  const onDownload = () => {
-    const csv = weekToCsv(week, activities);
-    const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    URL.revokeObjectURL(url);
+  data = [],
+  fileName = "export.csv",
+}: CsvDownloadButtonProps) {
+  const handleDownload = () => {
+    const csvContent =
+      "data:text/csv;charset=utf-8," +
+      data.map((row) => Object.values(row).join(",")).join("\n");
+
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", fileName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
-    <Button type="button" onClick={onDownload} aria-label="Exporter la semaine au format CSV">
-      Exporter en CSV
-    </Button>
+    <button
+      onClick={handleDownload}
+      className="rounded bg-azur px-4 py-2 text-white"
+    >
+      Télécharger CSV
+    </button>
   );
 }
