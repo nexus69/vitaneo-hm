@@ -57,15 +57,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Aller au contenu
         </a>
 
-        {/* Contrôles d’accessibilité (taille/contraste, etc.) */}
+        {/* Contrôles d’accessibilité */}
         <div className="container flex items-center justify-end py-2">
           <AccessibilityControls />
         </div>
 
         <SiteHeader />
-
         <main id="contenu">{children}</main>
-
         <SiteFooter />
         <StickyCtaMobile />
       </body>
